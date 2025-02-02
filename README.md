@@ -2,9 +2,12 @@
 Configuring Snort and Splunk as a SIEM solution on Linux
 
 What we will do?
- -Use Snort for implementing IDS rules
- -Use Splunk Forwarder to forward the logs to our splunk server
- -Use Splunk Enterprise to listen for the forwarded logs and alerts
+ -Use Snort for implementing IDS rules.
+ 
+ -Use Splunk Forwarder to forward the logs to our splunk server.
+ 
+ -Use Splunk Enterprise to listen for the forwarded logs and alerts.
+ 
 --------------------------------------------------------
 
 ## Update the linux instance first

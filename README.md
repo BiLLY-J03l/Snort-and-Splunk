@@ -1,2 +1,2 @@
-# Splunk-Config
-Configuring Splunk on Linux
+# Snort-and-Splunk
+Configuring Snort and Splunk as a SIEM solution on Linux

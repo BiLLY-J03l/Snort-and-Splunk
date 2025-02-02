@@ -32,7 +32,7 @@ What we will do?
     dpkg -i splunkforwarder-9.4.0-6b4ebe426ca6-linux-amd64.deb
     dpkg -i splunk-9.4.0-6b4ebe426ca6-linux-amd64.deb
 ----------------------------------------------------------
-## Accept Splunk Licence
+## Accept SplunkForwarder Licence
   
     /opt/splunkforwarder/bin/splunk start
 

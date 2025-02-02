@@ -27,4 +27,6 @@ Configuring Snort and Splunk as a SIEM solution on Linux
   ![image](https://github.com/user-attachments/assets/fedbbef5-edc9-41ec-936d-2fa3ee762a1a)
    
 the username : password --> admin : adminadmin
+    ![image](https://github.com/user-attachments/assets/701ea81e-4d86-4e0b-ad18-bb1cf2269fdf)
+
 -------------------------------------------------------

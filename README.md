@@ -25,4 +25,6 @@ Configuring Snort and Splunk as a SIEM solution on Linux
     /opt/splunkforwarder/bin/splunk start
 
   ![image](https://github.com/user-attachments/assets/fedbbef5-edc9-41ec-936d-2fa3ee762a1a)
+   
+the username : password --> admin : adminadmin
 -------------------------------------------------------

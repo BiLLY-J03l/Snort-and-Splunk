@@ -22,12 +22,15 @@ What we will do?
     sudo su
     apt install snort -y
 ----------------------------------------------------------
-## Create an account on Splunk website and install the Universal Forwarder
+## Create an account on Splunk website and install the Universal Forwarder and Splunk Enterprise
 
     sudo su
     wget -O splunkforwarder-9.4.0-6b4ebe426ca6-linux-amd64.deb "https://download.splunk.com/products/universalforwarder/releases/9.4.0/linux/splunkforwarder-9.4.0-6b4ebe426ca6-linux-amd64.deb"
+    wget -O splunk-9.4.0-6b4ebe426ca6-linux-amd64.deb "https://download.splunk.com/products/splunk/releases/9.4.0/linux/splunk-9.4.0-6b4ebe426ca6-linux-amd64.deb"
     mv splunkforwarder-9.4.0-6b4ebe426ca6-linux-amd64.deb /opt
+    mv splunk-9.4.0-6b4ebe426ca6-linux-amd64.deb /opt
     dpkg -i splunkforwarder-9.4.0-6b4ebe426ca6-linux-amd64.deb
+    dpkg -i splunk-9.4.0-6b4ebe426ca6-linux-amd64.deb
 ----------------------------------------------------------
 ## Accept Splunk Licence
   

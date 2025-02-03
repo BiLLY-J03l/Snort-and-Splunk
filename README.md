@@ -45,7 +45,12 @@ the username : password --> admin : adminadmin
 ## Accept SplunkForwarder Licence and configure it to forward logs to the splunk instance on port 9997
 
     /opt/splunkforwarder/bin/splunk add forward-server localhost:9997
-  ![image](https://github.com/user-attachments/assets/b2d29daf-4ef8-4ce5-bb21-85468ed92928)
+  ![image](https://github.com/user-attachments/assets/e876c0b3-246c-44dc-bb2a-59e10207e3d2)
+
+   verify the configuration.
+   ![image](https://github.com/user-attachments/assets/639de289-1b06-4b07-8bbc-4a44fe58bda0)
+
+
 
   
    

@@ -32,8 +32,18 @@ What we will do?
     dpkg -i splunkforwarder-9.4.0-6b4ebe426ca6-linux-amd64.deb
     dpkg -i splunk-9.4.0-6b4ebe426ca6-linux-amd64.deb
 ----------------------------------------------------------
+## Accept Splunk Enterprise Licence
+
+    /opt/splunk/bin/splunk start
+
+   ![image](https://github.com/user-attachments/assets/35a621e3-0afa-4e98-9a49-3589204afb10)
+
+the username : password --> admin : adminadmin
+   ![image](https://github.com/user-attachments/assets/62802e8c-8975-4b0e-804c-848bf0d63582)
+
+----------------------------------------------------------
 ## Accept SplunkForwarder Licence
-  
+
     /opt/splunkforwarder/bin/splunk start
 
   ![image](https://github.com/user-attachments/assets/fedbbef5-edc9-41ec-936d-2fa3ee762a1a)

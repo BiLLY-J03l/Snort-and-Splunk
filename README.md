@@ -58,6 +58,13 @@ the username : password --> admin : adminadmin
   ![image](https://github.com/user-attachments/assets/c13219cf-d7a4-432e-9f86-8b8fed44e4b8)
   ![image](https://github.com/user-attachments/assets/97ce9d1e-cf80-477c-8f89-cc15539f5946)
 
+### configure receving on port 9997
+![image](https://github.com/user-attachments/assets/45918f14-6cef-4947-940e-4ef9800110c8)
+![image](https://github.com/user-attachments/assets/af230d20-47da-49e7-b77e-a08336cde572)
+![image](https://github.com/user-attachments/assets/a5c3ec1f-77e8-4238-9120-4ac92d443ec9)
+
+
+
 
 
 

@@ -105,5 +105,6 @@ this file needs further configuration as follows
 ## Restart Splunk
 
     /opt/splunk/bin/splunk restart
+    /opt/splunkforwarder/bin/splunk restart
 
 

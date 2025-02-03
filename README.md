@@ -97,7 +97,8 @@ the username : password --> admin : adminadmin
 
 this file needs further configuration as follows
 
-![image](https://github.com/user-attachments/assets/a881d1e2-a755-45ab-b01b-df3496907961)
+![image](https://github.com/user-attachments/assets/5ea236ec-8ecc-4083-91d0-d5b4109bf5dc)
+
 
 ------------------------------------------------------------------
 ## Restart Splunk

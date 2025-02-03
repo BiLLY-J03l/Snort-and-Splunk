@@ -83,5 +83,25 @@ the username : password --> admin : adminadmin
 
 -the file is blank by default. Let's add some rules to it.
 
+![image](https://github.com/user-attachments/assets/8b7be5a0-4e9f-4a59-8fe5-2e670773e56e)
+
+------------------------------------------------------------
+## Continuing on SplunkForwarder
+
+    /opt/splunkforwarder/bin/splunk add monitor /var/log/snort
+
+ ![image](https://github.com/user-attachments/assets/3f9147bb-58e6-4f3b-8d77-d1d560dcc8d5)
+
+    vim /opt/splunkforwarder/etc/apps/search/local/inputs.conf 
+![image](https://github.com/user-attachments/assets/ec8695d5-1c49-4119-85a8-712e920edc4c)
+
+this file needs further configuration as follows
+
+![image](https://github.com/user-attachments/assets/a881d1e2-a755-45ab-b01b-df3496907961)
+
+------------------------------------------------------------------
+## Restart Splunk
+
+    /opt/splunk/bin/splunk restart
 
 

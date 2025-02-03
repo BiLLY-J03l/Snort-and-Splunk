@@ -97,7 +97,8 @@ the username : password --> admin : adminadmin
 
 this file needs further configuration as follows
 
-![image](https://github.com/user-attachments/assets/5ea236ec-8ecc-4083-91d0-d5b4109bf5dc)
+![image](https://github.com/user-attachments/assets/6c3aab82-8451-461f-8278-ea03c6236022)
+
 
 
 ------------------------------------------------------------------

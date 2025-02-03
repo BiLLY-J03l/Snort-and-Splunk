@@ -68,9 +68,20 @@ the username : password --> admin : adminadmin
 ![image](https://github.com/user-attachments/assets/af230d20-47da-49e7-b77e-a08336cde572)
 ![image](https://github.com/user-attachments/assets/a5c3ec1f-77e8-4238-9120-4ac92d443ec9)
 
+------------------------------------------------------------
+## Add Snort. Navigate to Apps>Find more Apps> Search for ‘Snort’> Install Snort Alert for Splunk.
 
+![image](https://github.com/user-attachments/assets/a92fcd08-35fe-4b0b-a426-27a59ec34e25)
 
+------------------------------------------------------------
+## Now for Snort Rules configurations
 
+    sudo su
+    vim /etc/snort/rules/local.rules
+   
+![image](https://github.com/user-attachments/assets/15d555fe-106e-4507-bc78-8985dfc13e0d)
+
+-the file is blank by default. Let's add some rules to it.
 
 
 

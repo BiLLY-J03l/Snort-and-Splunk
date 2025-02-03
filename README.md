@@ -42,13 +42,23 @@ the username : password --> admin : adminadmin
    ![image](https://github.com/user-attachments/assets/62802e8c-8975-4b0e-804c-848bf0d63582)
 
 ----------------------------------------------------------
-## Accept SplunkForwarder Licence
+## Accept SplunkForwarder Licence and configure it to forward logs to the splunk instance on port 9997
 
-    /opt/splunkforwarder/bin/splunk start
+    /opt/splunkforwarder/bin/splunk add forward-server localhost:9997
+  ![image](https://github.com/user-attachments/assets/b2d29daf-4ef8-4ce5-bb21-85468ed92928)
 
-  ![image](https://github.com/user-attachments/assets/fedbbef5-edc9-41ec-936d-2fa3ee762a1a)
+  
    
 the username : password --> admin : adminadmin
-    ![image](https://github.com/user-attachments/assets/701ea81e-4d86-4e0b-ad18-bb1cf2269fdf)
+  
 
 -------------------------------------------------------
+## Open Browser and navigate to the host with port 8000
+
+  ![image](https://github.com/user-attachments/assets/c13219cf-d7a4-432e-9f86-8b8fed44e4b8)
+  ![image](https://github.com/user-attachments/assets/97ce9d1e-cf80-477c-8f89-cc15539f5946)
+
+
+
+
+

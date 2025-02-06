@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/33d98954-bb88-4653-a15c-e4c106d23f08)# Snort-and-Splunk
+# Snort-and-Splunk
 Configuring Snort and Splunk as a SIEM solution on Linux
 
 What we will do?
@@ -110,6 +110,7 @@ this file needs further configuration as follows
 ## Final POV
 
 ![image](https://github.com/user-attachments/assets/0e64563e-9fc3-41c3-a714-e9cfc0327ebc)
+
 
 to test snort rules:
 

@@ -1,4 +1,4 @@
-# Snort-and-Splunk
+![image](https://github.com/user-attachments/assets/33d98954-bb88-4653-a15c-e4c106d23f08)# Snort-and-Splunk
 Configuring Snort and Splunk as a SIEM solution on Linux
 
 What we will do?
@@ -106,5 +106,11 @@ this file needs further configuration as follows
 
     /opt/splunk/bin/splunk restart
     /opt/splunkforwarder/bin/splunk restart
+------------------------------------------------------------------
+## Final POV
 
+![image](https://github.com/user-attachments/assets/0e64563e-9fc3-41c3-a714-e9cfc0327ebc)
 
+to test snort rules:
+
+    snort -i enp0s3 -l /var/log/snort -c /etc/snort/snort.conf -A full

@@ -1,13 +1,13 @@
 # Snort-and-Splunk
 Configuring Snort and Splunk as a SIEM solution on Linux
 
-What we will do?
+- What we will do?
 
- -Use Snort for implementing IDS rules.
+ - Use Snort for implementing IDS rules.
  
- -Use Splunk Forwarder to forward the logs to our splunk server.
+ - Use Splunk Forwarder to forward the logs to our splunk server.
  
- -Use Splunk Enterprise to listen for the forwarded logs and alerts.
+ - Use Splunk Enterprise to listen for the forwarded logs and alerts.
  
 --------------------------------------------------------
 
@@ -36,19 +36,19 @@ What we will do?
 
     /opt/splunk/bin/splunk start
 
-   ![image](https://github.com/user-attachments/assets/35a621e3-0afa-4e98-9a49-3589204afb10)
+  - ![image](https://github.com/user-attachments/assets/35a621e3-0afa-4e98-9a49-3589204afb10)
 
-the username : password --> admin : adminadmin
-   ![image](https://github.com/user-attachments/assets/62802e8c-8975-4b0e-804c-848bf0d63582)
+- the username : password --> admin : adminadmin 
+  - ![image](https://github.com/user-attachments/assets/62802e8c-8975-4b0e-804c-848bf0d63582)
 
 ----------------------------------------------------------
 ## Accept SplunkForwarder Licence and configure it to forward logs to the splunk instance on port 9997
 
     /opt/splunkforwarder/bin/splunk add forward-server localhost:9997
-  ![image](https://github.com/user-attachments/assets/e876c0b3-246c-44dc-bb2a-59e10207e3d2)
+- ![image](https://github.com/user-attachments/assets/e876c0b3-246c-44dc-bb2a-59e10207e3d2)
 
-   verify the configuration.
-   ![image](https://github.com/user-attachments/assets/639de289-1b06-4b07-8bbc-4a44fe58bda0)
+- verify the configuration.
+  - ![image](https://github.com/user-attachments/assets/639de289-1b06-4b07-8bbc-4a44fe58bda0)
 
 
 
@@ -95,9 +95,9 @@ the username : password --> admin : adminadmin
     vim /opt/splunkforwarder/etc/apps/search/local/inputs.conf 
 ![image](https://github.com/user-attachments/assets/ec8695d5-1c49-4119-85a8-712e920edc4c)
 
-this file needs further configuration as follows
+- This file needs further configuration as follows
 
-![image](https://github.com/user-attachments/assets/6c3aab82-8451-461f-8278-ea03c6236022)
+  - ![image](https://github.com/user-attachments/assets/6c3aab82-8451-461f-8278-ea03c6236022)
 
 
 
@@ -109,9 +109,9 @@ this file needs further configuration as follows
 ------------------------------------------------------------------
 ## Final POV
 
-![image](https://github.com/user-attachments/assets/0e64563e-9fc3-41c3-a714-e9cfc0327ebc)
+- ![image](https://github.com/user-attachments/assets/0e64563e-9fc3-41c3-a714-e9cfc0327ebc)
 
 
-to test snort rules:
+- to test snort rules:
 
-    snort -i enp0s3 -l /var/log/snort -c /etc/snort/snort.conf -A full
+      snort -i enp0s3 -l /var/log/snort -c /etc/snort/snort.conf -A full
